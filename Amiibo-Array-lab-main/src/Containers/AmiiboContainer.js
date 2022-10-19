@@ -25,13 +25,19 @@ const onClickAddToBasket = (addAmiibo) => {
     setBasket(addToBasket);
 };
 
+// const onClickDeleteFromBasket = (DeleteAmiibo) => {
+//   const deleteFromBasket = basket.pop(DeleteAmiibo);
+//   setBasket(deleteFromBasket);
+// };
+
 return (
   <>
     <Router>
       <NavBar />
         <Routes>
           <Route path="/" element={<AmiiboList amiibos={amiibos} onClickAddToBasket={onClickAddToBasket} />} />
-          <Route path='/basket' element={<BasketList basket={basket} amiibos={amiibos} />} />
+          <Route path='/basket' element={<BasketList basket={basket} amiibos={amiibos} //onClickDeleteFromBasket={onClickDeleteFromBasket}
+          />} />
         </Routes>
     </Router>
   </>

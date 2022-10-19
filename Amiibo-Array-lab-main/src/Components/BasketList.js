@@ -9,7 +9,7 @@ const BasketList = ({basket}) => {
 
   return (
     <>
-      <ul>{basketItems}</ul>
+      <ul className="list">{basketItems}</ul>
     </>
   );
 };

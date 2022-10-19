@@ -19,7 +19,7 @@ const AmiiboItem = ({amiibo, onClickAddToBasket}) => {
         <div className="item-back">
           <h1>{amiibo.name}</h1>
           <ul>
-            <li>AmiiboSeries: {amiibo.amiiboSeries} </li>
+            <li>Series: {amiibo.amiiboSeries} </li>
             <li>Character: {amiibo.character}</li>
             <li>Game Series:{amiibo.gameSeries}</li>
             <li>Name:{amiibo.name}</li>
