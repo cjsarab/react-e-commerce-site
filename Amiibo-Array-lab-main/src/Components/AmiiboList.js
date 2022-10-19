@@ -1,5 +1,6 @@
 import React from 'react';
 import AmiiboItem from './AmiiboItem';
+import styled from 'styled-components';
 
 const AmiiboList = ({amiibos , onClickAddToBasket}) => {
 
@@ -9,7 +10,7 @@ const AmiiboList = ({amiibos , onClickAddToBasket}) => {
 
   return (
     <>
-      <ul>{amiiboItems}</ul>
+      <ul className="list">{amiiboItems}</ul>
     </>
   );
 };
