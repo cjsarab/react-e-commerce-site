@@ -9,7 +9,7 @@ const NavBar = () => {
             <li><Link to="/basket">Basket</Link></li>
         </ul>
     </div>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;

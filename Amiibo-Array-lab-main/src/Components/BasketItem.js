@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const BasketItem = ({basketItem}) => {
   return (
@@ -11,7 +11,7 @@ const BasketItem = ({basketItem}) => {
     <hr></hr>
     <br></br>
     </>
-  )
-}
+  );
+};
 
-export default BasketItem
+export default BasketItem;
