@@ -1,10 +1,10 @@
 import React from 'react';
 
-const BasketItem = ({basketItem}) => {
+const BasketItem = ({basketItem, onClickDeleteFromBasket}) => {
 
-  // const handleClick = function (){
-  //   onClickDeleteFromBasket(basketItem)
-  // };
+  const handleClick = function (){
+    onClickDeleteFromBasket(basketItem)
+  };
 
   return (
 <div className="item">
@@ -20,7 +20,7 @@ const BasketItem = ({basketItem}) => {
         <li>Game Series:{basketItem.gameSeries}</li>
         <li>Name:{basketItem.name}</li>
       </ul>
-      {/* <button className="delete-button" onClick={handleClick}>Delete from Basket</button> */}
+      <button className="delete-button" onClick={handleClick}>Delete from Basket</button>
     </div>
     <br></br>
   </div>

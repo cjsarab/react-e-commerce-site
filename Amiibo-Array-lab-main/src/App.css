@@ -26,12 +26,29 @@
 .add-button {
   display: flex;
   justify-content: center;
-  background: dodgerblue;
+  background: green;
   color: white;
+  margin-left: 64px;
+  margin-top: 12px;
 }
 
 .add-button:hover {
-  background-color: blue;
+  background-color:  limegreen;
+  color:black;
+}
+
+.delete-button {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  margin-left: 64px;
+  margin-top: 12px;
+}
+
+.delete-button:hover {
+  background-color: crimson;
+  color: black;
 }
 
 a {

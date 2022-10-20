@@ -21,8 +21,8 @@ const AmiiboItem = ({amiibo, onClickAddToBasket}) => {
           <ul>
             <li>Series: {amiibo.amiiboSeries} </li>
             <li>Character: {amiibo.character}</li>
-            <li>Game Series:{amiibo.gameSeries}</li>
-            <li>Name:{amiibo.name}</li>
+            <li>Game Series: {amiibo.gameSeries}</li>
+            <li>Name: {amiibo.name}</li>
           </ul>
           <button className="add-button" onClick={handleClick}>Add to Basket</button>
         </div>
