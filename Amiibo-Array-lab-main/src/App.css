@@ -4,23 +4,30 @@
 }
 
 .nav {
+  display: flex;
   background-color: red;
   padding: 12px;
-  margin-bottom: 36px;
+  margin: 0;
+  justify-content: center;
+  /* position: sticky;
+  top: 0; */
+
 }
 
 .nav-links {
   display: flex;
-  justify-content: flex-end;
   list-style: none;
+  align-items: center;
+  justify-content: center;
 }
 
 .home-button {
-  margin-right: 900px;
-}
+  align-items: center;
+} 
 
 .basket-button {
-  margin-right: 100px;
+  align-items: center;
+  padding-left: 3em;
 }
 
 .add-button {
@@ -126,7 +133,3 @@ a:hover {
   display: flex;
   justify-content: center;
 }
-
-
-
-
